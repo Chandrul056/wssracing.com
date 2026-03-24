@@ -12,10 +12,3 @@
 3. Update the WhatsApp link in `index.html`
 4. Update Instagram and GitHub profile links in `index.html`
 5. Optionally add real RAW championship stats and screenshots
-
-## GitHub Pages deployment
-1. Create a repository
-2. Upload all files from this folder
-3. Go to **Settings > Pages**
-4. Select the branch (usually `main`) and root folder
-5. Save and publish
