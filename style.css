@@ -676,3 +676,14 @@ a {
     width: 100%;
   }
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(1); /* makes icons white */
+}
+
+.button-secondary:hover .icon {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
