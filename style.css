@@ -687,3 +687,22 @@ a {
   transform: scale(1.1);
   transition: 0.2s;
 }
+
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.cta-actions .button-primary {
+  flex: 2; /* Email bigger */
+}
+
+.cta-actions .button-secondary {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
