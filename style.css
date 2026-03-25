@@ -695,10 +695,53 @@ a {
   flex-wrap: nowrap;
 }
 
-.cta-actions .button-secondary {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+.cta-actions .button {
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
 }
 
+.cta-actions .button-primary {
+  white-space: nowrap;
+  flex: 0 1 auto;
+}
+
+.cta-actions .button-secondary {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  padding: 0;
+  flex: 0 0 44px;
+}
+
+.cta-actions .icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .cta-actions {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .cta-actions .button-primary {
+    white-space: nowrap;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .cta-actions .button-secondary {
+    flex: 0 0 44px;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+}
