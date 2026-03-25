@@ -695,10 +695,6 @@ a {
   flex-wrap: nowrap;
 }
 
-.cta-actions .button-primary {
-  flex: 2; /* Email bigger */
-}
-
 .cta-actions .button-secondary {
   flex: 1;
   display: flex;
